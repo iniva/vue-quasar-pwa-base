@@ -1,0 +1,26 @@
+{
+  "@quasar/dotenv": {
+    "env_development": ".env",
+    "env_production": ".env.production",
+    "common_root_object": "none",
+    "create_env_files": true,
+    "add_env_to_gitignore": true
+  },
+  "@quasar/icon-genie": {
+    "minify_dev": "pngquant",
+    "minify_build": "optipng",
+    "cordova": {
+      "background_color": "#FFC107",
+      "splashscreen_type": "overlay"
+    },
+    "build_always": true,
+    "__internal": {
+      "dev": {
+        "pwa": {
+          "iconHash": "393682b737d499fcb1542ae4dd8ce2ad"
+        }
+      },
+      "build": {}
+    }
+  }
+}
